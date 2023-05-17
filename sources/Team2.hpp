@@ -11,9 +11,9 @@ public:
 
     // ~Team2();
 
-    //void add(Character* character) override;
-   // void attack(Team* enemy_team) override;
-   // int stillAlive() override;
+    void add(Character* character) ;
+   void attack(Team* enemy_team) ;
+   int stillAlive() ;
     void print() ;
 };
 }
